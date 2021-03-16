@@ -10,7 +10,7 @@
   </tr>
   <tr>
     <td>M2 - Navigate this courseContains unread posts</td>
-    <td><a href="navigatethiscourse.html">Please Click</a></td>
+    <td><a href="navigatethiscourse.php">Please Click</a></td>
   </tr>
   <tr>
     <td>M2 - Getting Started - Folder, Template, Contract & Introduction </td>
