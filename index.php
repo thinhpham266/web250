@@ -6,7 +6,7 @@
   <caption><h1>Table of Contents</h1></caption>
   <tr>
     <th>CPCC EVA COURSE CONTRACT - FIRST ACTIVITY</th>
-    <th>Assignments</th>
+    <th><a href="contract.html">Please Click</a></th>
   </tr>
   <tr>
     <td>M2 - Navigate this courseContains unread posts</td>
