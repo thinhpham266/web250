@@ -42,7 +42,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             {
                 if ( $name%3 == 0 && $name%5 == 0 )
                 {
-                    echo $name . " FizzBuzz"."\n" ;
+                    echo $name . " Bang...!!"."\n" ;
                     
                 }
                 else if ( $name%3 == 0 ) 
