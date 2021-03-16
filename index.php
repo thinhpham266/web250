@@ -46,19 +46,19 @@
     <td>...</td>
   </tr>
   <tr>
-      <td>..</td>
+      <td>M14A - Convert your pages to include dynamic components.</td>
       <td>...</td>
   </tr>
   <tr>
-      <td>..</td>
+      <td>M14B - FreeCodeCamp Responsive Web Design Certification</td>
       <td>...</td>
   </tr>
   <tr>
-      <td>..</td>
+      <td>M15A - Make an Introduction Form</td>
       <td>...</td>
   </tr>
   <tr>
-      <td>..</td>
+      <td>M16A - Port Course Folder to GitHub Pages</td>
       <td>...</td>
   </tr>
   <tr>
