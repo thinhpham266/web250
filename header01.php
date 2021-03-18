@@ -19,7 +19,5 @@
   </a>
 
 </div>
-<div class="bg-image"></div>
 
-<div class="bg-text">
   
