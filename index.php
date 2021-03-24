@@ -48,7 +48,7 @@
   </tr>
   <tr>
     <td>Fizz Buzz 2 - Branded for You</td>
-    <td><a href="">Please Click</a></td>
+    <td><a href="FizzBuzz2.php">Please Click</a></td>
   </tr>
   <tr>
     <td>Fizz Buzz 3 - Fizz, Buzz, BANG!</td>

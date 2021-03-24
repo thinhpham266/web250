@@ -72,6 +72,7 @@ body, html {
   
   footer{
       text-align:center;
+	  margin-top:300px;
 
     }
     table {
@@ -89,4 +90,8 @@ body, html {
     tr:nth-child(even) {
       background-color: #dddddd;
     }
+	.f1 {
+		margin-left: 100px;
+		margin-top:60px;
+	}
   
