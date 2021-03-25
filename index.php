@@ -40,7 +40,7 @@
   </tr>
   <tr>
     <td>M3B - Console/Code Play</td>
-    <td><a href="codeplay.php">Please Click</a></td>
+    <td><a href="Codeplay.php">Please Click</a></td>
   </tr>
   <tr>
     <td>Set up Course Table of Contents (TOC) - Branded for You</td>
