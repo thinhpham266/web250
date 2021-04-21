@@ -5,7 +5,7 @@ function register()
             $username = $_POST['username'];
             $pwd = $_POST['pwd'];
             $formtype = $_POST['formtype'];
-            echo '<script>alert("your form type is: $formtype")</script>';
+            echo "<script>alert('your form type is: $formtype')</script>";
             $servername = "us-cdbr-east-03.cleardb.com";
             $database = "heroku_74b6261186c9d5e";
             $dbusername = "b796116edff4ef";
