@@ -83,8 +83,8 @@
       <td><a href="">Please Click</a></td>
   </tr>
   <tr>
-      <td>..</td>
-      <td><a href="">Please Click</a></td>
+      <td>DATA CRUD</td>
+      <td><a href="welcome.php">Please Click</a></td>
   </tr>
   <tr>
       <td>..</td>
