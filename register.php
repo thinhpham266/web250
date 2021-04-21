@@ -16,13 +16,13 @@ function register()
                 die("Connection failed: " . mysqli_connect_error());
             }
             echo "Connected successfully";
-            //echo '<script>alert("your form type is: $formtype");</script>';
-            echo'<script Type="javascript">alert("JavaScript Alert Box by PHP")</script>';
+        
+           
        $query = "INSERT INTO customer (username, pwd) values ('".$username."','".$pwd."')";
        mysqli_query($conn, $query);
        $conn->close();
-    
-       //header("location: loginform.php");
+
+       header("location: loginform.php?formtype=$formtype");
 
     }
 }
