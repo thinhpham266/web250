@@ -39,7 +39,7 @@ echo "Connected successfully";
        mysqli_close($conn);
 
         if($data != null && count($data)>0){
-            header("Location: toc.php"); 
+            header("Location: index.php"); 
         }
 
     }
