@@ -25,7 +25,8 @@ login();
 </div>
 <br>
 <br>
-
+<h1> Please Login to your account </h1>
+<p>Use the user name and password you create before or go back to <a href="newuserform.php">the register page</a></p>
 
 <form action="" method="POST">
   

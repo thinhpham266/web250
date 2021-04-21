@@ -26,7 +26,7 @@ register();
 
 </div>
 <h1> Register a new account </h1>
-<p> Please put in your user name and password here. The system will create your account for you</p>
+<p> Please put in your user name and password here. The system will create your account for you. If you already have an account, <a href="loginform.php">Login here</a></p>
 <!--add a fiel for nickname later-->
 <form action="" method="POST">
         <label for="username">Username:</label><br>
