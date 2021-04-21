@@ -19,7 +19,7 @@ function register()
        $query = "INSERT INTO customer (username, pwd) values ('".$username."','".$pwd."')";
        mysqli_query($conn, $query);
        $conn->close();
-       header("location: testform.php");
+       header("location: loginform.php");
 
     }
 }

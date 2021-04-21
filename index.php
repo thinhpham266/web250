@@ -59,8 +59,8 @@
     <td><a href="">Please Click</a></td>
   </tr>
   <tr>
-    <td>Thinh Fruits Market application page</td>
-    <td><a href="form.php">Please Click</a></td>
+    <td>Thinh Fruits Market application page: </td>
+    <td><a href="newuserform.php">Create User</a> <a href="loginform.php">Login</a> <a href="">Go to my project</a></td>
   </tr>
   <tr>
     <td>One page sites with JS</td>
