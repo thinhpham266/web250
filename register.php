@@ -4,7 +4,8 @@ function register()
     if(!empty($_POST)) {
             $username = $_POST['username'];
             $pwd = $_POST['pwd'];
-
+            $formtype = $_POST['formtype'];
+            echo ' your form type is: $formtype';
             $servername = "us-cdbr-east-03.cleardb.com";
             $database = "heroku_74b6261186c9d5e";
             $dbusername = "b796116edff4ef";

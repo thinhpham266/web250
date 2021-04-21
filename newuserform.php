@@ -34,7 +34,7 @@ register();
         <label for="pwd">Password:</label><br>
         <input type="password" id="pwd" name="pwd"><br><br>
         <input type="submit" value="Submit">
-		<input type="hidden" value="createuser" id="createuser" name="formtype">
+		<input type="hidden" value="createuser" id="formtype" name="formtype">
 </form>
 <script>
 function myFunction() {

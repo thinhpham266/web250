@@ -3,7 +3,8 @@ function login(){
     if(!empty($_POST)){
         $username = $_POST['username'];
         $pwd =$_POST['pwd'];
-       
+        $formtype = $_POST['formtype'];
+        echo ' your form type is: $formtype';
 
      /* $connect = new mysqli("localhost", "root", "","tpfruitsmarket");
         if($connect->connect_error)
@@ -19,10 +20,10 @@ function login(){
        
 $servername = "us-cdbr-east-03.cleardb.com";
 $database = "heroku_74b6261186c9d5e";
-$username = "b796116edff4ef";
+$dbusername = "b796116edff4ef";
 $password = "198109b7";
 // Create connection
-$conn = mysqli_connect($servername, $username, $password, $database);
+$conn = mysqli_connect($servername, $dbusername, $password, $database);
 // Check connection
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
