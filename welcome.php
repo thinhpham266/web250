@@ -22,13 +22,7 @@
 </div>
 <br>
 <br>
-<table>
-  <tr>
-    <th>No</th>
-    <th>Username</th>
-    <th>Password</th>
-  </tr>
-</table>
+
 <?php
   const HOST = "us-cdbr-east-03.cleardb.com";
   const DATABASE = "heroku_74b6261186c9d5e";
@@ -52,11 +46,15 @@
          
          for($i=0;$i<count($data);$i++)
          {   
-             echo'<tr>
-                   <td>'.($i+1).'</td>;
-                   <td>'.$data[$i]['username'].'</td>;
-                   <td>'.$data[$i]['pwd'].'</td>;
-                </tr>';
+             echo'<table>
+                <th>Number</th>
+                <th>Username</th>
+                <th>Password</th><tr>
+                   <td>'.($i+1).'</td>
+                   <td>'.$data[$i]['username'].'</td>
+                   <td>'.$data[$i]['pwd'].'</td>
+                </tr>
+                </table>';
          }
 ?>
 
