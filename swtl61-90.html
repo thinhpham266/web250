@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style/swtlcss.css">
+
+</head>
+<body>
+  <div id ="logo">
+  <img src = "images/logo.png"></div>
+<div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+
+</div>
+<br>
+<br>
+<table>
+	<caption><h1>SWTL chapters 61-90</h1></caption>		
+    <tr>
+        <td>Chapter61 </td>
+        <td><p>var numKids = p.childNodes.length;
+for (var i = 0; i < numKids; i++) {
+if (p.childNodes[i].nodeType === 1) {
+break;
+} 
+} </p></td>
+    </tr>
+    <tr>
+        <td>Chapter62 </td>
+        <td><p>The first child of parentNode has been assigned to the variable p1. Using p1 as a reference, target the third child of parentNode, and assign it to the variable tNode,
+var tNode = p1.nextSibling.nextSibling;
+        </p></td>
+    </tr>
+    <tr>
+        <td>Chapter63 </td>
+        <td><p>var dTitle = document.childNodes[0].childNodes[0].childNodes[0].
+childNodes[0].nodeValue; </p></td>
+    </tr>
+    <tr>
+        <td>Chapter64 </td>
+        <td><p>var list = document.childNodes[0].childNodes;</p></td>
+    </tr>
+    <tr>
+        <td>Chapter65 </td>
+        <td><p>var ad = document.getElementById("info").getAttribute("href");</p></td>
+    </tr>
+    <tr>
+        <td>Chapter66 </td>
+        <td><<p id="p1" class="regular" onClick="disappear();">
+
+var num = document.getElementById("p1").
+attributes.length;</td>
+    </tr>
+    <tr>
+        <td>Chapter67 </td>
+        <td><p>var newParagraph = document.createElement("p");
+var newText = document.createTextNode("LOL");
+newParagraph.appendChild(newText); </p></td>
+    </tr>
+    <tr>
+        <td>Chapter68 </td>
+        <td><p>var newParagraph = document.createElement("p");
+div3.insertBefore(newParagraph, div3.firstChild);</p></td>
+    </tr>
+    <tr>
+        <td>Chapter69 </td>
+        <td><p>
+var productB = {
+name: "Rubber duck",
+units: 11
+};
+alert(productB.units);
+}; </p></td>
+    </tr>
+    <tr>
+        <td>Chapter70 </td>
+        <td><p>var productB = {
+name: "Rubber duck",
+units: 11
+};
+productB.name = "Slinky"; 
+alert(productB.name);</p></td>
+    </tr>
+    <tr>
+        <td>Chapter71 </td>
+        <td><p>var makeNice = {
+compliment: "You're so good-lookin'!",
+sayIt: function() {
+alert(this.compliment);
+}
+};
+makeNice.sayIt();</p></td>
+
+    </tr>
+    <tr>
+        <td>Chapter72 </td>
+        <td><p>function Cat(color, gender) {
+this.color = color;
+this.gender = gender;
+} 
+var cat10 = new Cat("white", "female");
+alert("The cat is a "+cat10.color+" "+cat10.gender);</p></td>
+    </tr>
+    <tr>
+        <td>Chapter73 </td>
+        <td><p>function SaysSomething(message) { 
+this.message = message;
+this.sayIt = function() {
+alert(this.message);
+};
+}
+var myObj = new SaysSomething("Hello world!");
+myObj.sayIt();</p></td>
+    </tr>
+    <tr>
+        <td>Chapter74 </td>
+        <td><p>function MakeObj() {
+}
+var thing = new MakeObj();
+MakeObj.prototype.color = "white";
+alert(thing.color);</p></td>
+    </tr>
+    <tr>
+        <td>Chapter75 </td>
+        <td><p>var anObject = {
+color: "blue"
+}
+alert("color" in anObject);</p></td>
+    </tr>
+    <tr>
+        <td>Chapter76 </td>
+        <td><p>Display the current URL in an alert: alert(window.location.href);</p></td>
+    </tr>
+    <tr>
+        <td>Chapter77 </td>
+        <td><p>window.location.assign("http://www.wikipedia.org"); or window.location.replace("http://www.wikipedia.org");</p></td>
+    </tr>
+    <tr>
+        <td>Chapter78 </td>
+        <td><p>var whereItCameFrom = document.referrer;</p></td>
+    </tr>
+    <tr>
+        <td>Chapter79 </td>
+        <td><p> var pop = window.open();
+pop.close(); </p></td>
+    </tr>
+    <tr>
+        <td>Chapter80 </td>
+        <td><p>var params = "width=300,height=200,left=25,top=50";
+var newWin = window.open("", "", params); </p></td>
+    </tr>
+    <tr>
+        <td>Chapter81 </td>
+        <td><p><button onclick="chapter81()">Please Click me</button></p></td>
+    </tr>
+    <tr>
+        <td>Chapter82 </td>
+        <td><form onsubmit="return checkFororder();">
+                    Please enter your order
+                    <input type="text" id="order">
+                    <input type="submit" value="Submit" >
+                </form>
+        </td>
+    </tr>
+    <tr>
+        <td>Chapter83 </td>
+        <td>
+            <h3 id="chapter83">Check order</h3>
+             <form onsubmit="return checkForMenu('menu');">
+                order menu
+                <select id="menu">
+                <option value="" selected="selected">Select menu</option>
+                <option value="bd">banh xeo</option>
+                <option value="ad">banh bot loc</option>
+                <option value="bp">banh tet </option>
+                <option value="ap">Banh chung</option>
+                </select>
+                <input type="submit" value="Submit">
+             </form>
+        </td>
+
+    </tr>
+    <tr>
+        <td>Chapter84 </td>
+        <td><form onsubmit="return chapter84('vn');">
+                <input type="radio" name="vn" value="Members">Members
+                <input type="radio" name="vn" value="first time">First Time<br>
+                <input type="submit" value="Please Submit">
+             </form>
+        </td>
+    </tr>
+    <tr>
+        <td>Chapter85 </td>
+        <td><form onsubmit="return chapter85zipcode();">
+                <input type="text" id="zip" placeholder=" Your zipcode" maxlength="7">
+                <input type="submit" value="Submit">
+             </form>
+        </td>
+    </tr>
+    <tr>
+        <td>Chapter86 </td>
+        <td><form onsubmit="return chapter86('address');">
+                <input type="text" id="address" placeholder="example@gmail.com">
+                <input type="submit" value="Submit">
+             </form>
+        </td>
+    </tr>
+    <tr>
+        <td>Chapter87 </td>
+        <td><p>try {
+                      var tot = 3 + 4;
+                    }
+                    catch(oops) {
+                      alert(oops);
+                    } 
+            </p>
+        </td>
+    </tr>
+    <tr>
+        <td>Chapter88 </td>
+        <td><form onsubmit="return chapter88checkPassword();">
+              Enter a password<br>
+              ( 13 characters, at least 1 number, no spaces)<br>
+              <input type="password" id="pw">
+              <input type="submit" value="Submit">
+            </form>
+        </td>
+    </tr>
+    <tr>
+        <td>Chapter89 </td>
+        <td><input type="button" value="Please Click" id="b"></td>
+    </tr>    
+
+</table>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+<script>
+   function chapter71(){
+	var makeNice = {
+	compliment: "You're so good-lookin'!"}
+    alert(makeNice);
+  }
+
+  function chapter81(){
+	var tryPop = window.open("","","width=150,height=150");
+	if(tryPop === null || typeof(tryPop) === "Undefined")
+	{
+		alert("Please open the DB");
+	}
+	tryPop.close();
+}
+function checkFororder()
+{
+	var targetField = document.getElementById("order");
+	if(targetField.value.length === 0)
+	{
+		alert("Please enter your order");
+		targetField.focus();
+		targetField.style.background = "red";
+		return false;
+	}
+	targetField.style.background = "brown";
+}
+function checkForMenu(selecID)
+{
+	var targetField = document.getElementById(selecID);
+	if(targetField.selectedIndex === 0)
+	{
+		alert("Please place your order ");
+		targetField.focus();
+		targetField.style.background = "red";
+		return false;
+	}
+	targetField.style.background = "brown";
+}
+function chapter84(vn)
+{
+	var radios = document.getElementsByName(vn);
+	for(var i=0;i< radios.length; i++)
+	{
+		if(radios[i].checked)
+		{
+			return true;
+		}
+	}
+	alert('Please check one');
+	return false;
+}
+function chapter85zipcode()
+{
+	var zipcode = document.getElementById('zip').value;
+	if(zipcode.length < 5)
+	{
+		alert('Please enter a 5 digit code');
+		return false;
+	}
+	for(var i=0; i<=4;i++)
+	{	
+		var thisChar = parseInt(zipcode[i]);
+		if(isNaN(thisChar))
+		{
+			alert('Please enter again');
+			return false;
+		}
+	}
+}
+
+
+function chapter86(eEntered){
+    var eEntered = document.getElementById(eEntered).value;
+    var emailPattern = /^[\w\-\.\+]+\@[a-zA-Z0-9\. \-]+\.[a-zA-Z0-9]{2,4}$/;
+
+    if(!(eEntered.match(emailPattern))){
+        alert("Please enter your email again")
+        return false;
+    }
+}
+function chapter88checkPassword(){
+    try{
+        var password = document.getElementById("pw").value;
+        if(password.length < 13){
+            throw "Password must be at least 13 characters.";
+        }
+		if(password.indexOf(" ")!== -1){
+			throw "Spaces are not allow in the password";
+		}
+        var numberSomewhere = false;
+        for(var i=0; i<password.length;i++){
+            if(isNaN(password[i])===false){
+                numberSomewhere = true;
+                break;
+            }
+        }
+        if(numberSomewhere===false){
+            throw "Password must contain at least one number.";
+        }
+        
+      }
+        catch(err){
+            alert(err);
+      }
+}
+function message() {
+	document.getElementById("b").onclick = message;
+  alert("You clicked!");
+}
+
+</script>
+<footer>
+				Designed by Thinh Pham &copy; 2021 
+				<br>
+				The images do not belong to me. I use them for my project purpose
+				<br>
+					<a href="http://students.cpcc.edu/~tpham019" target="_blank">Webspace</a> &#9553;
+				<a href="https://github.com/thinhpham266" target="_blank">Github</a> &#9553;
+				<a href="https://thinhpham266.github.io/">Github Website</a> &#9553;
+				<a href="https://www.khanacademy.org/profile/kaid_618721559974171339464542/" target="_blank">Khan Academy</a> &#9553;
+				<a href="https://www.codecademy.com/profiles/ThinhPham2606" target="_blank">Codecademy</a> &#9553;
+				<a href="https://jsfiddle.net/user/fiddles/all/">JSFiddle </a> &#9553;
+				<a href="https://profile.edx.org/u/tpham019" target="_blank">EdX</a>&#9553;
+				<a href="https://www.linkedin.com/in/thinh-pham-71b925192/" target="_blank">LinkedIn</a>&#9553;
+				<a href="https://www.freecodecamp.org/tpham019" target="_blank">FreeCodeCamp</a>&#9553;
+				<br>
+				<br>
+			   <a href="http://validator.w3.org/check?uri=referer">
+				<img class = "validation" src="images/validation_button_html5.gif"  alt="Valid HTML 5" 
+				height="31" width="88" style="border:0px;" /></a>
+			   
+			   <a href="http://jigsaw.w3.org/css-validator/check/referer">
+				<img  class = "validation" src="images/validation_button_css.gif" alt="Valid CSS!"
+				height="31" width="88" style="border:0px;" /></a>
+	
+</footer>
+</body>
+</html>

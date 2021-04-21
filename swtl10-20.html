@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style/swtlcss.css">
+
+</head>
+<body>
+  <div id ="logo">
+  <img src = "images/logo.png"></div>
+<div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+
+</div>
+<br>
+<br>
+<table>
+	<caption><h1>SWTL chapters 1-30</h1></caption>		
+    <tr>
+        <td>Chapter 1</td>
+        <td><p>alert("TP Fruits Market");</p></td>
+        <td><p><button onclick="chapter1()">Welcome</button></p></td>
+    </tr>
+    <tr>
+        <td>Chapter 2</td>
+        <td><p>var fruits=" banana, orange, strawberry"; alert(fruits);</p></td>
+        <td><p><button onclick="chapter2()">Menu</button></p> </td>
+    </tr>
+    <tr>
+        <td>Chapter 3</td>
+        <td><p> var order1 = 4; var order2 = 3; var totalorder= order1 + order2;alert(totalorder + ' Dollars');</p> </td>
+        <td> <p><button onclick="chapter3()">Totalorder</button></p></td>
+    </tr>
+    <tr>
+        <td>Chapter 4</td>
+        <td><p>var banana = 3; var orange = 0.45; var _f7$ = banana + orange;alert(_f7$)</p> </td>
+        <td> <p><button onclick="chapter4()">Price</button></p></td>
+    </tr>
+    <tr>
+        <td>Chapter 5</td>
+        <td><p>  var people = prompt(" banana?how much for"); var total = people * 40;alert("the total price is " + total);</p></td>
+        <td> <p><button onclick="chapter5()">Remainder</button></p></td>
+    </tr>
+    <tr>
+        <td>Chapter 6</td>
+        <td><p>var number = 2; number++; var newNumber = num; alert(newNumber)</p> </td>
+        <td> <p><button onclick="chapter6()">Math</button></p></td>
+    </tr>
+    <tr>
+        <td>Chapter 7</td>
+        <td><p>  alert("welcome to TP Fruits Market);</p> </td>
+        <td> <p><button onclick=" chapter7() ">Hello</button></p></td>
+    </tr>
+    <tr>
+        <td>Chapter 8</td>
+        <td><p>  var mon1 = "strawberry";var mon2 = "ha cao"; var mon3 = "mango"; alert("Combo = " +mon1+mon2+mon3+);</p> </td>
+        <td> <p><button onclick=" chapter8() "> Combo</button></p></td>
+    </tr>
+    <tr>
+        <td>Chapter 9</td>
+        <td><p>var question = prompt("how much for mango?");if (question === "4") { alert("you are right, just $4 dollars for order mango"); } else { alert("try again?);}</p> </td>
+        <td> <p><button onclick="chapter9()">Question</button></p></td>
+    </tr>
+    <tr>
+        <td>Chapter 10</td>
+        <td><p> var question = prompt("Do you like strawberry"); if (question === 'yes') { alert("Thank you"); }</p> </td>
+        <td> <p><button onclick="chapter10()">Feedback</button></p></td>
+    </tr>
+    <tr>
+        <td>Chapter 11</td>
+        <td><p> var order = prompt("what would you want today?");if(order !== "strawberry"){alert("we're sorry, we do not have that " +order);}else{alert("your order is $40 ");}</p></td>
+        <td><p><button onclick="chapter11()">Comparison operators</button></p></td>
+    </tr>
+    <tr>
+        <td>Chapter 12</td>
+        <td><p>var fb = prompt(" do you like our customer service? (yes/no)");if(fb === "yes"){alert("thank you, see you again");}else if(fb === "no"){alert("we're sorry. We will do better next time");}</p></td>
+        <td><p><button onclick="chapter12()">if else statament</button></p> </td>
+    </tr>
+    <tr>
+        <td>Chapter 13</td>
+        <td><p> var discount = prompt(" what is your total ?");if(discount<=20|| discount &lt= 90){	alert("your discount is 10% of your purchase");}else{	alert("we're sorry, you do not have discount this time");}</p> </td>
+        <td> <p><button onclick="chapter13()">testing sets of conditions</button></p></td>
+    </tr>
+    <tr>
+        <td>Chapter 14</td>
+        <td><p>var order = prompt("would you want coffee? (yes/no)");var disc = prompt(" do you have promote code? (yes/no)");if(order === "yes"){if(disc === "yes"){ 	alert(" we got it ");}}else{alert("Thank you and have a good day!");}</p> </td>
+        <td> <p><button onclick="chapter14()">if statements nested</button></p></td>
+    </tr>
+    <tr>
+        <td>Chapter 15</td>
+        <td><p>var order = [4, 5, 6];alert(order[1]);</p></td>
+        <td> <p><button onclick="chapter15()">Arrays</button></p></td>
+    </tr>
+    <tr>
+        <td>Chapter 16</td>
+        <td><p>var order = ["mango"];order.push("strawberry");alert(order[1]);</p> </td>
+        <td> <p><button onclick="chapter16()">Arrays:add-remove elements</button></p></td>
+    </tr>
+    <tr>
+        <td>Chapter 17</td>
+        <td><p>var menu = ["mango", "strawberry", "banh tet", "cherry"];menu.splice(1, 2, "blue berry", "durian");alert(menu);</p> </td>
+        <td> <p><button onclick="chapter17()">removing, inserting, and extracting elements</button></p></td>
+    </tr>
+    <tr>
+        <td>Chapter 18</td>
+        <td><p>var numberorder = [1,2,3,4,5,6,7];for(i=0;i&lt4;i++){	if(numberorder[i] > 3);	alert(numberorder);	break;}</p> </td>
+        <td> <p><button onclick="chapter18()"> for loops</button></p></td>
+    </tr>
+    <tr>
+        <td>Chapter 19</td>
+        <td><p>var numsmenu = [1,2,3,4,5,7,8];var numbermenu = numsmenu.length;alert("menu has " + numbermenu+ " item");</p> </td>
+        <td> <p><button onclick="chapter19()">for loops: flags, Booleans, array length, and loopus interruptus</button></p></td>
+    </tr>
+    <tr>
+        <td>Chapter 20</td>
+        <td><p>var cakes = ["blue berry ", "banh tet ", "banh trung","durian"];var drinks = ["juice", "water melon","buble tea", "thai tea"];	var products = [];var m = 0;	for (var i = 0; i < cakes.length; i++) {   for (var j = 0; j < drinks.length; j++) { 	products[m] = cakes[i] + drinks[j];	m++;  }}alert(products[3]); </p> </td>
+        <td> <p><button onclick="chapter20()">for loops nested</button></p></td>
+    </tr>
+    <tr>
+        <td>Chapter 21 </td>
+        <td><p> var city = "Boston";alert(city.toLowerCase()); </p></td>
+        <td><p><button onclick="chapter21()">Please Click Me</button></p></td>
+    </tr>
+    <tr>
+        <td>Chapter 22</td>
+        <td><p>var animal = "elephant";alert(animal.slice(0, 3));</p></td>
+        <td><p><button onclick="chapter22()">Please Click Me</button></p></td>
+    </tr>
+    <tr>
+        <td>Chapter 23</td>
+        <td><p>var text = "Let the great world spin.";alert(text.indexOf("great")); </p></td>
+        <td><p><button onclick="chapter23()">Please Click Me</button></p></td>
+    </tr>
+    <tr>
+        <td>Chapter 24</td>
+        <td><p>var text = "Let the great world spin.";alert(text.charAt(0)); </p></td>
+        <td><p><button onclick="chapter24()">Please Click Me</button></p></td>
+    </tr>
+    <tr>
+        <td>Chapter 25</td>
+        <td><p>var text = "Let the great world spin.";text = text.replace("spin", "rotate"); alert(text); </p></td>
+        <td><p><button onclick="chapter25()">Please Click Me</button></p></td>
+    </tr>
+    <tr>
+        <td>Chapter 26</td>
+        <td><p>alert(Math.floor(-1.1)); </p></td>
+        <td><p><button onclick="chapter26()">Please Click Me</button></p></td>
+    </tr>
+    <tr>
+        <td>Chapter 27</td>
+        <td><p>var randomNum = Math.random();alert(randomNum); </p></td>
+        <td><p><button onclick="chapter27()">Please Click Me</button></p></td>
+    </tr>
+    <tr>
+        <td>Chapter 28</td>
+        <td><p>var numAsString = "1.1";
+            alert(parseFloat(numAsString) + parseFloat(numAsString)); 
+            }
+            </p>
+        </td>
+        <td><p><button onclick="chapter28()">Please Click Me</button></p></td>
+    </tr>
+    <tr>
+        <td>Chapter 29 </td>
+        <td><p>var numAsString = "100";alert(Number(numAsString) + Number(numAsString));</p></td>
+        <td><p><button onclick="chapter29()">Please Click Me</button></p></td>
+    </tr>
+    <tr>
+        <td>Chapter 30</td>
+        <td><p>	var num = 1.123456;alert(num.toFixed(2)); </p></td>
+        <td><p><button onclick="chapter30()">Please Click Me</button></p></td>
+    </tr>
+
+</table>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+<script>
+
+    function chapter1(){
+        alert("TP Fruits Market");
+    }
+    function chapter2(){
+        var food=" blue berry, strawberry, durian"; 
+        alert(food);
+    }
+    
+    function chapter3(){
+        var order1 = 4; var order2 = 3; var totalorder = order1 + order2;alert(totalorder + "Dollars");
+    }
+    function chapter4(){
+        var banhgio = 3; var banhcuon = 0.45; var _f7$ = banhgio + banhcuon;alert(_f7$);
+    }
+    function chapter5(){
+        var people = prompt(" mango?how much for");
+        var total = people * 40;
+         alert("the total price is " + total);
+    }
+    function chapter6(){
+        var num = 15; num++; var newNum = num; alert(newNum);
+    }
+    function chapter7(){
+        alert("welcome to TP Fruits Market");
+    }
+    
+    function chapter8(){
+        var mon1 = "banana";
+        var mon2 = "black berry";
+        var combo = mon1 +" "+ mon2;
+        alert("the combo is " +combo);
+    }
+    
+    function chapter9(){
+        var question = prompt("how much for mango?");
+        if (question === "4") 
+        { 
+            alert("you are right, just $4 dollars for order mango"); 
+        } 
+        else 
+        { 
+            alert("try again?");
+        }
+    }
+    function chapter10(){
+        var question1 = prompt("Do you like strawberry");
+        if (question1 === "yes") 
+        { 
+            alert("Thank you"); 
+        }
+        }
+        function chapter11(){
+    var order = prompt("what would you want today?");
+	if(order !== "banana")
+	{
+		alert("we're sorry, we do not have that " +order);
+	}
+	else
+	{
+		alert("your order is $40 ");
+	}
+}
+function chapter12(){
+		var fb = prompt(" do you like our customer service? (yes/no)");
+		if(fb === "yes")
+		{
+			alert("thank you, see you again");
+		}
+		else if(fb === "no")
+		{
+			alert("we're sorry. We will do better next time");
+		}
+}
+function chapter13(){ 
+	var discount = prompt(" what is your total ?");
+	if(discount <= 20 || discount >= 90)
+	{
+		alert("your discount is 10% of your purchase");
+	}
+	else
+	{
+		alert("we're sorry, you do not have discount this time");
+	}
+}
+function chapter14(){
+	var order = prompt("would you want coffee? (yes/no)");
+	var disc = prompt(" do you have promote code? (yes/no)");
+	if(order === "yes")
+	{
+		if(disc === "yes")
+		{ 
+			alert(" we got it ");
+		}
+	}
+	else{
+		alert("Thank you and have a good day!");
+		}
+}
+function chapter15(){
+	var order = [4, 5, 6];
+	alert(order[1]);
+}
+function chapter16(){
+	var order = ["banana"];
+	order.push("orange");
+	alert(order[1]);
+}
+function chapter17(){
+	var menu = ["banana", "black berry", "orange", "strwberry"];
+	menu.splice(1, 2, "mango", "asian's mango");
+	alert(menu);
+}
+function chapter18(){
+	var numberorder = [1,2,3,4,5,6,7];
+	for(i=0;i<4;i++)
+	{
+		if(numberorder[i] > 3);
+		alert(numberorder);
+		break;
+	}
+	
+}
+function chapter19(){
+	var numsmenu = [1,2,3,4,5,7,8];
+	var numbermenu = numsmenu.length;
+	alert("menu has " + numbermenu+ " item");
+}
+
+function chapter20(){
+	var cakes = ["banana ", "banh tet ", "banh trung","durian"];
+	var drinks = ["juice", "water melon","buble tea", "thai tea"];
+	var products = [];
+	var m = 0; 
+	for (var i = 0; i < cakes.length; i++) { 
+	  for (var j = 0; j < drinks.length; j++) { 
+		products[m] = cakes[i] + drinks[j];
+		m++;
+	  }
+	}
+	alert(products[3]); 
+}
+function chapter21(){
+    var city = "Boston";
+alert(city.toLowerCase()); 
+}
+function chapter22(){
+	var animal = "elephant";
+alert(animal.slice(0, 3));
+}
+function chapter23(){
+	var text = "Let the great world spin.";
+alert(text.indexOf("great")); 
+}
+function chapter24(){
+	var text = "Let the great world spin.";
+alert(text.charAt(0)); 
+}
+function chapter25(){
+	var text = "Let the great world spin.";
+text = text.replace("spin", "rotate"); 
+alert(text); 
+}
+function chapter26(){
+	alert(Math.floor(-1.1)); 
+}
+function chapter27(){
+	var randomNum = Math.random();
+alert(randomNum); 
+}
+function chapter28(){
+	var numAsString = "1.1";
+alert(parseFloat(numAsString) + parseFloat(numAsString)); 
+}
+function chapter29(){
+	var numAsString = "100";
+alert(Number(numAsString) + Number(numAsString)); 
+}
+function chapter30(){
+	var num = 1.123456;
+alert(num.toFixed(2)); 
+}
+
+
+        </script>
+<footer>
+				Designed by Thinh Pham &copy; 2021 
+				<br>
+				The images do not belong to me. I use them for my project purpose
+				<br>
+					<a href="http://students.cpcc.edu/~tpham019" target="_blank">Webspace</a> &#9553;
+				<a href="https://github.com/thinhpham266" target="_blank">Github</a> &#9553;
+				<a href="https://thinhpham266.github.io/">Github Website</a> &#9553;
+				<a href="https://www.khanacademy.org/profile/kaid_618721559974171339464542/" target="_blank">Khan Academy</a> &#9553;
+				<a href="https://www.codecademy.com/profiles/ThinhPham2606" target="_blank">Codecademy</a> &#9553;
+				<a href="https://jsfiddle.net/user/fiddles/all/">JSFiddle </a> &#9553;
+				<a href="https://profile.edx.org/u/tpham019" target="_blank">EdX</a>&#9553;
+				<a href="https://www.linkedin.com/in/thinh-pham-71b925192/" target="_blank">LinkedIn</a>&#9553;
+				<a href="https://www.freecodecamp.org/tpham019" target="_blank">FreeCodeCamp</a>&#9553;
+				<br>
+				<br>
+			   <a href="http://validator.w3.org/check?uri=referer">
+				<img class = "validation" src="images/validation_button_html5.gif"  alt="Valid HTML 5" 
+				height="31" width="88" style="border:0px;" /></a>
+			   
+			   <a href="http://jigsaw.w3.org/css-validator/check/referer">
+				<img  class = "validation" src="images/validation_button_css.gif" alt="Valid CSS!"
+				height="31" width="88" style="border:0px;" /></a>
+	
+</footer>
+</body>
+</html>

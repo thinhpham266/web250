@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style/swtlcss.css">
+
+</head>
+<body>
+  <div id ="logo">
+  <img src = "images/logo.png"></div>
+<div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+
+</div>
+<br>
+<br>
+<table>
+	<caption><h1>SWTL chapters 31-60</h1></caption>		
+    <tr>
+        <td>Chapter 31 </td>
+        <td>
+            <p>var dayNames = ["Sun", "Mon", "Tue", "Wed","Thu",
+                "Fri", "Sat"];
+                var d = new Date();
+                var theDay = d.getDay();
+                alert(dayNames[theDay]);
+            </p>
+        </td>
+        <td><p><button onclick="chapter31()">Please Click me</button></p></td>
+    </tr>
+    <tr>
+        <td>Chapter 32 </td>
+        <td><p>var moNames = ["Jan", "Feb", "Mar", "Apr","May",
+                "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+                var d = new Date();
+                var theMo = d.getMonth();
+                alert(moNames[theMo]);
+        </p></td>
+        <td><p><button onclick="chapter32()">Please Click me</button></p></td>
+    </tr>
+    <tr>
+        <td>Chapter 33 </td>
+        <td>
+            <p> var ticks = new Date("July 31, 2015").getTime();
+                alert(Math.floor(ticks / (1000 * 60 * 60 * 24))); 
+            </p>
+        </td>
+        <td>
+            <p><button onclick="chapter33()">Please Click me</button></p>
+        </td>
+    </tr>
+    <tr>
+        <td>Chapter 34 </td>
+        <td>
+            <p> var now = new Date();
+                var nowHours = now.getHours(); 
+                now.setHours(nowHours + 1);
+                alert(now);
+            </p>
+        </td>
+        <td><p><button onclick="chapter34()">Please Click me</button></p></td>
+    </tr>
+    <tr>
+        <td>Chapter 35 </td>
+        <td><p> var userName = prompt("Enter name");
+                alert(userName);</p></td>
+        <td><p><button onclick="chapter35()">Please Click me</button></p></td>
+    </tr>
+    <tr>
+        <td>Chapter 36</td>
+        <td>
+            <p>var sum = num1 + num2;
+            alert("The sum is " + sum);}
+            chapter36(100, 50);
+            </p>
+        </td>
+        <td><p>..</p></td>
+    </tr>
+    <tr>
+        <td>Chapter 37</td>
+        <td><p>function chapter37(frag1, frag2) {{
+                return frag1 + frag2;
+                }
+                alert(chapter37("It is ", "what it is.")};
+            </p>
+        </td>
+        <td><p>..</p></td>
+
+    </tr>
+    <tr>
+        <td>Chapter 38</td>
+        <td><p>function chapter38(part1, part2) {
+                  var message = part1 + part2;
+                  return message;
+                }
+
+                var firstName = "Abraham ";
+                var lastName = "Lincoln"; 
+                alert(chapter38(firstName, lastName));
+            </p>
+        </td>
+        <td><p>..</p></td>
+    </tr>
+    <tr>
+        <td>Chapter 39</td>
+        <td><p>nction chapter39(){ var win = true;switch(win) {case true : alert("You won"); break;case false : alert("You lost");  break; </p></td>
+        <td><p><button onclick="chapter39()">Please Click me</button></p></td>
+    </tr>
+    <tr>
+        <td>Chapter 40</td>
+        <td><p> var num = 10;switch(num) {case 10 :  alert("Assigned"); break;</p></td>
+        <td><p><button onclick="chapter40()">Please Click me</button></p></td>
+    </tr>
+    <tr>
+        <td>Chapter41 </td>
+        <td><p>while loops</p>
+                  <p><button onclick="chapter41()">Please Click me</button></p></td>
+    </tr>
+    <tr>
+        <td>Chapter42 </td>
+        <td><p>Do while loops</p> <p><button onclick="chapter42()">Please Click me</button></p></td>
+    </tr>
+    <tr>
+        <td>Chapter43 </td>
+        <td><p> alert("Hello world!");</p>
+        <p><button onclick="chapter43()">Please Click me</button></p></td>
+    </tr>
+    <tr>
+        <td>Chapter44 </td>
+        <td><p>alert("Hello world!"); // Say hello to the user</p>
+        <p><button onclick="chapter44()">Please Click me</button></p></td>
+    </tr>
+    <tr>
+        <td>Chapter45 </td>
+        <td><p><a href="JavaScript:void(0)" onClick="alert('Hi');">Please Click me</a> </p></td>
+    </tr>
+    <tr>
+        <td>Chapter46 </td>
+        <td><p><input type="button" value="Say hello" onClick="alert('Hello!');"></p></td>
+    </tr>
+    <tr>
+        <td>Chapter47 </td>
+        <td><p><input type="button" value="Say hello" onMouseover="alert('Hello!');"></p></td>
+    </tr>
+    <tr>
+        <td>Chapter48 </td>
+        <td><p><input type="text" onFocus="this.style.backgroundColor = 'yellow';">
+        </p></td>
+    </tr>
+    <tr>
+        <td>Chapter49 </td>
+        <td><p>What is your name?<br>
+            <form onSubmit="sayHi();"> 
+              <input type="text" id="name"> 
+              <input type="submit" value="Submit"> 
+            </form> 
+
+            </td>
+            </tr>
+            <tr>
+            <td>Chapter50 </td>
+            <td><p><input type="text" id="f" onFocus="fill();">
+            </p></td>
+    </tr>
+    <tr>
+        <td>Chapter51 </td>
+        <td><p id="p1">
+This is what I'm talking about.
+</p>
+<input type="button" value="Click to see this text in an alert"
+onClick="showAlert();"> <script>
+function showAlert() {
+var content = document.getElementById("p1").innerHTML;
+alert(content);
+}
+</script></td>
+    </tr>
+    <tr>
+        <td>Chapter52 </td>
+        <td><p>function boldIt() {
+document.getElementById("p2").className = "black";</p>
+
+
+<p id="p2" onClick="boldIt();">
+Click this sentence.
+</p></td>
+
+<script>
+function boldIt() {
+document.getElementById("p2").className = "black";
+}
+</script>
+        
+    </tr>
+    <tr>
+        <td>Chapter53 </td>
+        <td><p> document.getElementById("i0").src = "http://students.cpcc.edu/~tpham019/web110/project/imagesproject/cake/banh%20xeo.jpg";<img alt = "hinh banh" src="http://students.cpcc.edu/~tpham019/web110/project/imagesproject/cake/banh%20xeo.jpg" id="i0" onClick="swap();">
+
+<script>
+function swap() {
+document.getElementById("i0").src = "http://students.cpcc.edu/~tpham019/web110/project/imagesproject/cake/banh%20xeo.jpg";
+}
+</script></p></td>
+        
+    </tr>
+    <tr>
+        <td>Chapter54 </td>
+        <td><p> var pic = document.getElementById("i1");
+pic.src = "http://students.cpcc.edu/~tpham019/web110/project/imagesproject/cake/Banh-Bot-Loc.jpg";<img alt = " banh xeo" src="http://students.cpcc.edu/~tpham019/web110/project/imagesproject/cake/Banh-Bot-Loc.jpg" id="i1" onClick="swap();">
+
+<script>
+function swap() {
+var pic = document.getElementById("i1");
+pic.src = "http://students.cpcc.edu/~tpham019/web110/project/imagesproject/cake/Banh-Bot-Loc.jpg";
+}
+</script></p></td>
+    
+    </tr>
+    <tr>
+        <td>Chapter55 </td>
+        <td><p> var pgraph = document.getElementById("p1");
+pgraph.style.fontSize = "2em";</p></td>
+    </tr>
+    <tr>
+        <td>Chapter56 </td>
+        <td><p><p>This bed is too small.</p>
+<p>This bed is too big.</p> 
+<p>This bed is just right.</p>
+<input type="button" value="Click to see 2nd paragraph" onClick="displayPgraph();"> 
+
+<script>
+function displayPgraph() {
+var pgraphs = document.getElementsByTagName("p");
+alert(pgraphs[1].innerHTML);
+}
+</script></td>
+    </tr>
+    <tr>
+        <td>Chapter57 </td>
+        <td><p><p>This bed is too small.</p>
+<p>This bed is too big.</p>
+<div id="justRight">
+<p>This bed is just right.</p>
+<p>I'll take it.</p>
+</div>
+<input type="button" value="Click for satisfaction" onClick="displayPgraph();"> <script>
+
+function displayPgraph() {
+var targetDiv = document.getElementById("justRight");
+var pgraphs = targetDiv.getElementsByTagName("p");
+alert(pgraphs[0].innerHTML);
+}
+</script></td>
+    </tr>
+    <tr>
+        <td>Chapter58 </td>
+        <td><p>DOM is Document Object Model</p></td>
+    </tr>
+    <tr>
+        <td>Chapter59 </td>
+        <td><p>DOM: Learning about Parent and chidren</p></td>
+    </tr>
+    <tr>
+        <td>Chapter60 </td>
+        <td><p>var pgraphText = d.childNodes[1].innerHTML;</p></td>
+    </tr>
+    
+
+</table>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+<script>
+function chapter31(){
+    var dayNames = ["Sun", "Mon", "Tue", "Wed","Thu",
+    "Fri", "Sat"];
+var d = new Date();
+var theDay = d.getDay();
+alert(dayNames[theDay]);
+}
+function chapter32(){
+    var moNames = ["Jan", "Feb", "Mar", "Apr","May",
+    "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+var d = new Date();
+var theMo = d.getMonth();
+alert(moNames[theMo]);
+}
+function chapter33(){
+   var ticks = new Date("July 31, 2015").getTime();
+alert(Math.floor(ticks / (1000 * 60 * 60 * 24))); 
+}
+function chapter34(){
+    var now = new Date();
+var nowHours = now.getHours(); 
+now.setHours(nowHours + 1);
+alert(now);
+}
+function chapter39(){
+    var win = true;
+switch(win) {
+case true : 
+  alert("You won");
+  break;
+case false :
+  alert("You lost"); 
+  break;
+} 
+}
+function chapter40(){
+    var num = 10;
+switch(num) {
+case 10 : 
+  alert("Assigned");
+  break;
+} 
+}
+function chapter41(){
+   var i = 0;
+while (i <= 2) {
+  alert(i);
+  i++;
+} 
+}
+function chapter42(){
+   var i = 0;
+do {
+  alert(i);
+  i++;
+} while (i <= 2);
+}
+function chapter43(){
+   alert("Hello world!");
+}
+function chapter44(){
+   alert("Hello world!"); // Say hello to the user
+}
+function sayHi() { 
+					  var userName = document.getElementById("name").value; 
+					  alert("Hello, " + userName + "!"); 
+} 
+function fill() {
+					  document.getElementById("f").value = "Canada";
+					}
+   
+
+</script>
+<footer>
+				Designed by Thinh Pham &copy; 2021 
+				<br>
+				The images do not belong to me. I use them for my project purpose
+				<br>
+					<a href="http://students.cpcc.edu/~tpham019" target="_blank">Webspace</a> &#9553;
+				<a href="https://github.com/thinhpham266" target="_blank">Github</a> &#9553;
+				<a href="https://thinhpham266.github.io/">Github Website</a> &#9553;
+				<a href="https://www.khanacademy.org/profile/kaid_618721559974171339464542/" target="_blank">Khan Academy</a> &#9553;
+				<a href="https://www.codecademy.com/profiles/ThinhPham2606" target="_blank">Codecademy</a> &#9553;
+				<a href="https://jsfiddle.net/user/fiddles/all/">JSFiddle </a> &#9553;
+				<a href="https://profile.edx.org/u/tpham019" target="_blank">EdX</a>&#9553;
+				<a href="https://www.linkedin.com/in/thinh-pham-71b925192/" target="_blank">LinkedIn</a>&#9553;
+				<a href="https://www.freecodecamp.org/tpham019" target="_blank">FreeCodeCamp</a>&#9553;
+				<br>
+				<br>
+			   <a href="http://validator.w3.org/check?uri=referer">
+				<img class = "validation" src="images/validation_button_html5.gif"  alt="Valid HTML 5" 
+				height="31" width="88" style="border:0px;" /></a>
+			   
+			   <a href="http://jigsaw.w3.org/css-validator/check/referer">
+				<img  class = "validation" src="images/validation_button_css.gif" alt="Valid CSS!"
+				height="31" width="88" style="border:0px;" /></a>
+	
+</footer>
+</body>
+</html>
