@@ -59,7 +59,7 @@
     <td><a href="">Please Click</a></td>
   </tr>
   <tr>
-    <td>login</td>
+    <td>Thinh Fruits Market application page</td>
     <td><a href="form.php">Please Click</a></td>
   </tr>
   <tr>

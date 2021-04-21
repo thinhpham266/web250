@@ -22,18 +22,19 @@ register();
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
   </a>
+  
 
 </div>
-
-
+<h1> Register a new account </h1>
+<p> Please put in your user name and password here. The system will create your account for you</p>
+<!--add a fiel for nickname later-->
 <form action="" method="POST">
-  
         <label for="username">Username:</label><br>
         <input type="text" id="username" name="username"><br>
-        
         <label for="pwd">Password:</label><br>
         <input type="password" id="pwd" name="pwd"><br><br>
         <input type="submit" value="Submit">
+		<input type="hidden" value="createuser" id="createuser" name="formtype">
 </form>
 <script>
 function myFunction() {
