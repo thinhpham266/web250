@@ -13,8 +13,18 @@ require_once ("registerlogin.php");
 <body>
 <?php include("components/header.php"); ?>
 <main>
-<h2> Register a new account </h2>
-<p> Please put in your user name and password here. The system will create your account for you. If you already have an account, <a href="loginform.php">Login here</a></p>
+<?php
+ $formtype = $_GET['formtype'];
+ if($formtype == "register") //if it new user
+ {
+    echo'<h2> Register a new account </h2>';
+    echo'<p> Please put in your user name and password here. The system will create your account for you. If you already have an account, <a href="loginform.php">Login here</a></p>';
+ }
+ else //if loging in
+{
+    echo '<h2> Please Login to your account </h2>';
+}
+?>
 <!--add a fiel for nickname later-->
 <form action="" method="POST">
         <label for="username">Username:</label><br>
@@ -22,7 +32,7 @@ require_once ("registerlogin.php");
         <label for="pwd">Password:</label><br>
         <input type="password" id="pwd" name="pwd"><br><br>
         <input type="submit" value="Submit">
-		<input type="hidden" value="createuser" id="formtype" name="formtype">
+    	<input type="hidden" value="<?php echo $formtype; ?>" id="formtype" name="formtype">
 </form>
 </main>
 <?php
