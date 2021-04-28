@@ -71,7 +71,7 @@ foreach ($customerList as $std) {
 
 	<script type="text/javascript">
 		function deletecustomer(id) {
-			option = confirm('Do you want to selete this Customer?')
+			option = confirm('Do you want to delete this Customer?')
 			if(!option) {
 				return;
 			}

@@ -6,5 +6,5 @@ if (isset($_POST['id'])) {
 	$sql = 'delete from customer where id = '.$id;
 	execute($sql);
 
-	echo 'Delete Customer complete';
+	echo 'Delete Customer completed';
 }
