@@ -1,0 +1,150 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+	
+}
+
+
+/*  menu bar  */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #F78181;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* footer */
+
+footer{
+	text-align:center;
+	padding:15px;
+}
+
+/**/
+
+.banner1 {
+	background-image:url(file:///C|/Users/User/Desktop/shu-pei2.jpg);
+	text-align: center;
+	padding-top:10px;
+	font-family:Chalkduster, fantasy;
+	}
+.banner1 p{
+	padding:inherit;
+	font-size:40px;
+	color: black;
+	}
+/*button*/
+button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.banner2 {
+	background-image:url(file:///C|/Users/User/Desktop/Cool-Designs-Wallpapers-for-Background-HD-Wallpaper-1080x607.jpg);
+	text-align::center;
+}
+.banner2 img{
+	width:50%;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.button3 {
+	left:20px;	
+}
+
+.clear{
+	clear:both;
+}
+.font{
+	font-family:Copperplate Gothic;
+	font-size: 1.5em;
+}
+.wc{
+text-align:center;
+color:gray;
+font-size:2em;
+font-family: 'Raleway', sans-serif;
+background-color:hsl(0, 0%, 71%);
+
+}

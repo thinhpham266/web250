@@ -48,10 +48,10 @@
          {   
              echo'<table>
                 <th>Number</th>
-                <th>Username</th>
+                <th>fullname</th>
                 <th>Password</th><tr>
                    <td>'.($i+1).'</td>
-                   <td>'.$data[$i]['username'].'</td>
+                   <td>'.$data[$i]['fullname'].'</td>
                    <td>'.$data[$i]['pwd'].'</td>
                 </tr>
                 </table>';

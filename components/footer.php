@@ -11,6 +11,7 @@
 				<br>
 				<br>
 				Designed by Thinh Pham &copy; 2021 
+				<br>
 			   <a href="http://validator.w3.org/check?uri=referer">
 				<img class = "validation" src="images/validation_button_html5.gif"  alt="Valid HTML 5" 
 				height="31" width="88" style="border:0px;" /></a>

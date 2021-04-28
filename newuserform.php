@@ -17,8 +17,8 @@ require_once ("registerlogin.php");
 <p> Please put in your user name and password here. The system will create your account for you. If you already have an account, <a href="loginform.php">Login here</a></p>
 <!--add a fiel for nickname later-->
 <form action="" method="POST">
-        <label for="username">Username:</label><br>
-        <input type="text" id="username" name="username"><br>
+        <label for="fullname">fullname:</label><br>
+        <input type="text" id="fullname" name="fullname"><br>
         <label for="pwd">Password:</label><br>
         <input type="password" id="pwd" name="pwd"><br><br>
         <input type="submit" value="Submit">

@@ -1,16 +1,15 @@
 <?php
+require_once ('config.php');
+
 function registerlogin()
 {
     if(!empty($_POST)) 
     {
-            $username = $_POST['username'];
+            $fullname = $_POST['fullname'];
             $pwd = $_POST['pwd'];
             $formtype = $_POST['formtype'];
-            $servername = "us-cdbr-east-03.cleardb.com";
-            $database = "heroku_74b6261186c9d5e";
-            $dbusername = "b796116edff4ef";
-            $password = "198109b7";
-            $conn = mysqli_connect($servername, $dbusername, $password, $database);
+       
+            $conn = mysqli_connect(HOST, USERNAME, PASSWORD, DATABASE);
            
             // Check connection
             if (!$conn) {
@@ -20,13 +19,13 @@ function registerlogin()
             
             if($formtype == "register") //if it new user
             {
-                $query = "INSERT INTO customer (username, pwd) values ('".$username."','".$pwd."')";
+                $query = "INSERT INTO customer (fullname, pwd) values ('".$fullname."','".$pwd."')";
                 mysqli_query($conn, $query);
                 header("location: loginform.php");
             }
-            else //if loging in
+            else //if loging in  
             {
-                $query = "SELECT * FROM customer WHERE username ='".$username."' AND pwd = '".$pwd."'";
+                $query = "SELECT * FROM customer WHERE fullname ='".$fullname."' AND pwd = '" .$pwd."'";
                 $result = mysqli_query($conn, $query);
                 $data = array();
                 while($row = mysqli_fetch_array($result,1)){
@@ -34,7 +33,7 @@ function registerlogin()
                 }
                 if($data != null && count($data) > 0)
                 {
-                    header("Location: index.php"); 
+                    header("Location: tp.php"); 
                 }
            
             }

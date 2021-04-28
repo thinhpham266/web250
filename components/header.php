@@ -1,13 +1,10 @@
 <header>
-  <div id ="logo">
-  <img src = "images/logo.png"></div>
-<div class="topnav" id="myTopnav">
-  <a href="#home" class="active">Home</a>
-  <a href="#news">News</a>
-  <a href="#contact">Contact</a>
-  <a href="#about">About</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
+<div class="header">
+  <img src="images/logo.png" class="logo"></img>
+  <div class="header-right">
+    <a class="active" href="tp.php">Home</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+  </div>
 </div>
 </header>
