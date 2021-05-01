@@ -23,7 +23,7 @@ require_once ('dbhelp.php');
 			<div class="panel-heading">
 				Customers member
 				<form method="get">
-					<input type="text" name="s" class="form-control" style="margin-top: 15px; margin-bottom: 15px;" placeholder="Tìm kiếm theo tên">
+					<input type="text" name="s" class="form-control" style="margin-top: 15px; margin-bottom: 15px;" placeholder="Search by Customer's name">
 				</form>
 			</div>
 			<div class="panel-body">
