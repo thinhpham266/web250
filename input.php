@@ -43,7 +43,7 @@ if (!empty($_POST)) {
 
 	execute($sql);
 
-	header('Location: index11.php');
+	header('Location: database.php');
 	die();
 }
 
