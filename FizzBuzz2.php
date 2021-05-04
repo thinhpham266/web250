@@ -1,5 +1,5 @@
 
-<?php include 'header.php' ?>
+<?php include 'components/header.php' ?>
 <div class="f1">
 	  <form>
 		<label for="fname">First Name</label>
@@ -22,4 +22,4 @@
 </div>
 
   
-<?php include 'footer.php' ?>
+<?php include 'components/footer.php' ?>
