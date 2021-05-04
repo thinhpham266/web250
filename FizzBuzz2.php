@@ -1,5 +1,5 @@
 
-<?php include 'tocindex.php' ?>
+<?php include 'header.php' ?>
 <div class="f1">
 	  <form>
 		<label for="fname">First Name</label>
@@ -22,4 +22,4 @@
 </div>
 
   
-<?php include 'tocfooter.php' ?>
+<?php include 'footer.php' ?>
