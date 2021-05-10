@@ -50,7 +50,7 @@ include("components/header.php");
   </tr>
   <tr>
     <td>Thinh Fruits Market application page: </td>
-    <td><a href="registerloginform.php?formtype=register">Create User</a> <a href="registerloginform.php?formtype=login">Login</a> <a href="">Go to my project</a><a href="database.php">View DB</a></td>
+    <td><a href="registerloginform.php?formtype=register">Create User</a> <a href="registerloginform.php?formtype=login">Login</a> <a href="tp.php">Go to my project</a><a href="database.php">View DB</a></td>
   </tr>
   <tr>
     <td>One page sites with JS</td>

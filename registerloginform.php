@@ -16,7 +16,7 @@ require_once ("registerlogin.php");
 <?php include("components/header.php"); ?>
 <main>
 <h1>Thinh Fruits Market application page: </h1>
-    <p><a href="registerloginform.php?formtype=register">Create User</a> <a href="registerloginform.php?formtype=login">Login</a> <a href="">Go to my project</a><a href="welcome.php">View DB</a></p>
+    <p><a href="registerloginform.php?formtype=register">Create User</a> <a href="registerloginform.php?formtype=login">Login</a> <a href="tp.php">Go to my project</a><a href="database.php">View DB</a></p>
 
 <?php
  $formtype = $_GET['formtype'];
