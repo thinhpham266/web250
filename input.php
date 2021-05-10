@@ -67,7 +67,10 @@ if (isset($_GET['id'])) {
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Registation Form * Form Tutorial</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style/newtoc.css">
+	<title>Tp Fruits Market</title>
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 
@@ -81,6 +84,9 @@ if (isset($_GET['id'])) {
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
+<?php
+  include("components/header.php");
+  ?>
 	<div class="container">
 		<div class="panel panel-primary">
 			<div class="panel-heading">
@@ -111,5 +117,8 @@ if (isset($_GET['id'])) {
 			</div>
 		</div>
 	</div>
+	<?php
+  include("components/footer.php");
+  ?>
 </body>
 </html>

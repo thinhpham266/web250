@@ -16,8 +16,14 @@ require_once ('dbhelp.php');
 
 	<!-- Latest compiled JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style/newtoc.css">
 </head>
 <body>
+<?php
+  include("components/header.php");
+  ?>
 	<div class="container">
 		<div class="panel panel-primary">
 			<div class="panel-heading">
@@ -85,5 +91,9 @@ foreach ($customerList as $std) {
 			})
 		}
 	</script>
+	
+	<?php
+  include("components/footer.php");
+  ?>
 </body>
 </html>

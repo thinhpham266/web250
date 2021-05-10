@@ -46,7 +46,7 @@ include("components/header.php");
   </tr>
   <tr>
     <td>Fizz Buzz 4 - Fizz, Buzz, BANG, Whatever</td>
-    <td><a href="">Please Click</a></td>
+    <td><a href="fizzbuzzeverything.php">Please Click</a></td>
   </tr>
   <tr>
     <td>Thinh Fruits Market application page: </td>
