@@ -40,13 +40,13 @@
 								<div class="mySlides fade">
 									  <div class="numbertext">1 / 3</div>
 										  <img src="images/pixabaybg.jpeg" style="max-width:100%; height:auto">
-										  <div class="text">Thinh's Shop</div>
+										  <div class="text">TP Fruits Market</div>
 								</div>
 
 								<div class="mySlides fade">
 								  <div class="numbertext">2 / 3</div>
 								  <img src="images/pixabaybg1.jpeg" style="max-width:100%; height:auto">
-								  <div class="text">Thinh's Shop</div>
+								  <div class="text">TP Fruits Market</div>
 								</div>
 
 							
